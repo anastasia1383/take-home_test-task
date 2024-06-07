@@ -1,4 +1,3 @@
-import './App.scss';
 import { QuestsContainer } from './components/QuestsContainer/QuestsContainer';
 
 function App() {

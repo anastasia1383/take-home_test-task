@@ -1,5 +1,6 @@
-import './PrimaryButton.scss';
 import img from '../../icons/primary-button.svg';
+
+import './PrimaryButton.scss';
 
 export const PrimaryButton = () => {
   return (

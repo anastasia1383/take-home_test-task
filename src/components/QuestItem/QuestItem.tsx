@@ -1,6 +1,7 @@
-import { Quest } from '../../types/types';
 import { InstallButton } from '../InstallButton/InstallButton';
 import { PrimaryButton } from '../PrimaryButton/PrimaryButton';
+import { Quest } from '../../types/types';
+
 import './QuestItem.scss';
 
 interface QuestItemProps {

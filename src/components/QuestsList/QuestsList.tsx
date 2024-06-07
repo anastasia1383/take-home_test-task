@@ -1,6 +1,8 @@
 import React from 'react';
+
 import { QuestItem } from '../QuestItem/QuestItem';
 import { Quest } from '../../types/types';
+
 import './QuestsList.scss';
 
 interface QuestsListProps {
