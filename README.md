@@ -2,6 +2,8 @@
 
 This repository contains the implementation of the Quest Container feature using React and SCSS, following the provided guidelines.
 
+-[DEMO](https://anastasia1383.github.io/take-home_test-task/)
+
 ## Project Overview
 
 The Quest Container feature includes different types of quests, as specified in the provided Figma file. Your task is to implement this feature based on the components and layout specified in the design. You will mock a call to the `/quests` endpoint to populate the Quest Container dynamically.
