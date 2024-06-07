@@ -1,0 +1,28 @@
+.quests-list {
+    height: 380px;
+    margin-right: 9px;
+    overflow: auto;
+    
+    &__container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    &::-webkit-scrollbar {
+        width: 6px;
+        height: 200px;
+    }
+    
+    &::-webkit-scrollbar-track {
+        background: transparent;
+    }
+    
+    &::-webkit-scrollbar-thumb {
+        background: #BEC9C8;
+        border-radius: 4px;
+    }
+    
+    &::-webkit-scrollbar-thumb:hover {
+        background: #BEC9C8;
+    }
+}
