@@ -1,4 +1,5 @@
 import tooltip from '../../icons/tooltip.svg';
+
 import './QuestsListTooltip.scss';
 
 interface QuestsListTooltipProps {

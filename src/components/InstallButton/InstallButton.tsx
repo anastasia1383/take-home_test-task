@@ -1,5 +1,6 @@
-import './InstallButton.scss';
 import installButton from '../../icons/install-button.svg';
+
+import './InstallButton.scss';
 
 export const InstallButton = () => {
   return (

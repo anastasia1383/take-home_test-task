@@ -1,9 +1,11 @@
 import React, { useEffect, useState } from 'react';
+
 import { fetchData } from '../../helpers/fetchData';
-import { Quest } from '../../types/types';
 import { QuestsList } from '../QuestsList/QuestsList';
-import './QuestsContainer.scss';
 import { QuestsListTooltip } from '../QuestsListTooltip/QuestsListTooltip';
+import { Quest } from '../../types/types';
+
+import './QuestsContainer.scss';
 
 export const QuestsContainer: React.FC = () => {
   const [quests, setQuests] = useState<Quest[]>([]);
