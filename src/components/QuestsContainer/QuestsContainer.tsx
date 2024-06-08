@@ -9,7 +9,7 @@ import './QuestsContainer.scss';
 
 export const QuestsContainer: React.FC = () => {
   const [quests, setQuests] = useState<Quest[]>([]);
-  const [loading, setLoading] = useState(true);
+  const [isLoading, setIsLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
 
   useEffect(() => {
@@ -21,14 +21,14 @@ export const QuestsContainer: React.FC = () => {
         const e = error as Error;
         setError(e.message);
       } finally {
-        setLoading(false);
+        setIsLoading(false);
       }
     };
 
     getData();
   }, []);
 
-  if (loading) {
+  if (isLoading) {
     return <p>Loading quests...</p>;
   }
 
